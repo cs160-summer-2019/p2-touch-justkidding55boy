@@ -9,11 +9,12 @@
 	<link rel="stylesheet" type="text/css" href="{% static '/vendors/bootstrap/css/bootstrap.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}" />
 
+
 	<script src="{% static '/vendors/jquery/jquery-3.3.1.min.js' %}"></script>
 	<script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
 	<script src="{% static '/vendors/hammer/hammer.min.js' %}"></script>
 	<script src="{% static '/vendors/hammer/jquery.hammer.js' %}"></script>
-
+  <script src="{% static '/script/main.js' %}"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="viewport" content="width=device-width, user-scalable=no" />
 
@@ -40,8 +41,8 @@
 		}
 
 		.small-box {
-			width: 100px;
-			height: 100px;
+			width: 200px;
+			height: 200px;
 			background: #7ce6df;
 			display: flex;
 			align-items: center;
@@ -69,7 +70,7 @@
 					</div>
 					<div class="large-box">
 						<div class="small-box" id="press-box">Press</div>
-					</div>
+					</div>          
 					<div class="large-box">
 						<div class="small-box" id="pan-box">Pan</div>
 					</div>
